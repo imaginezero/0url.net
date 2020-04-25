@@ -4,6 +4,7 @@
   "description": "Simple shortURL service",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/crisisfighters/crisislinks.org#readme",
   "dependencies": {
-    "shorturl-tsv-express-middleware": "0.0.1"
+    "express": "^4.17.1",
+    "shorturl-tsv-express-middleware": "^0.1.0"
   }
 }

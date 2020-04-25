@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();  
-const createMiddleware = require('./index');
+const createMiddleware = require('shorturl-tsv-express-middleware');
 
 let server;
 
@@ -10,7 +10,9 @@ app.use(createMiddleware({
     onError: error => {
         console.error(error);
         server.close();
-    }
+    },
+    log: console.log,
+    updateRoute: 'update-redirects',
 }));
 
 server = app.listen(process.env.PORT || 3000);
