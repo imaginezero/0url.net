@@ -25,6 +25,6 @@
   "homepage": "https://github.com/crisisfighters/crisislinks.org#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "shorturl-tsv-express-middleware": "^0.2.0"
+    "shorturl-tsv-express-middleware": "^0.2.4"
   }
 }
