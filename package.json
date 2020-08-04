@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crisisfighters/crisislinks.org.git"
+    "url": "git+https://github.com/imaginezero/0url.net.git"
   },
   "keywords": [
     "shorturl",
@@ -20,9 +20,9 @@
   "author": "Alexander Thiel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/crisisfighters/crisislinks.org/issues"
+    "url": "https://github.com/imaginezero/0url.net/issues"
   },
-  "homepage": "https://github.com/crisisfighters/crisislinks.org#readme",
+  "homepage": "https://github.com/imaginezero/0url.net#readme",
   "dependencies": {
     "express": "^4.17.1",
     "shorturl-tsv-express-middleware": "^0.3.3"
