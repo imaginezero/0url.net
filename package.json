@@ -25,6 +25,6 @@
   "homepage": "https://github.com/imaginezero/0url.net#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "shorturl-tsv-express-middleware": "^0.3.3"
+    "shorturl-tsv-express-middleware": "^0.4.0"
   }
 }
